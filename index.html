@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav id="sidebar">
+                <div class="container-fluid">
+                        <img class="navbar-brand img-fluid" src="images/logo.png" alt="logo Responsive image">
+                </div>
+                    
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#bidSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-project-diagram"></i>
+                           New Project Bidding
+                    </a>
+                    <ul class="collapse list-unstyled" id="bidSubmenu">
+                        <li>
+                                <a href="#">
+                            <i class="fas fa-project-diagram"></i>
+                            Contents-to Bid</a>
+                              
+                        </li>
+                        <li>
+                                <a href="#">
+                             <i class="fas fa-store"></i>
+                            My Bids</a>
+                              
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#workSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-briefcase"></i>
+                        My Project
+                    </a>
+                    
+                    <ul class="collapse list-unstyled" id="workSubmenu">
+                        <li>
+                            <a href="#">
+                                    <i class="fas fa-tasks"></i>
+                                    Assigned Work</a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                    <i class="fas fa-crown"></i>
+                                    Completed Work</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#teamSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-user-plus"></i>
+                        Team
+                    </a>
+                    <ul class="collapse list-unstyled" id="teamSubmenu">
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-users"></i>
+                            Users
+
+                            </a>
+
+                        </li>
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-star"></i>
+                            Favorites list</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#billSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-receipt"></i>
+                           Invoice
+                    </a>
+                    <ul class="collapse list-unstyled" id="billSubmenu">
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-clipboard-check"></i>
+                            Subscription</a>
+
+                        </li>
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-credit-card"></i>
+                            My order/Billing</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#anaSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-chart-line"></i>
+                        Analytics
+                    </a>
+                    
+                    <ul class="collapse list-unstyled" id="anaSubmenu">
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-tachometer-alt"></i>
+                            My Dashboard</a>
+
+                        </li>
+                        <li>
+                                <a href="#">
+                                <i class="far fa-calendar-alt"></i>
+                            Calender</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#mySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-user-tag"></i>
+                        Account
+                    </a>
+                    <ul class="collapse list-unstyled" id="mySubmenu">
+                        <li>
+                                <a href="#">
+                                        <i class="fas fa-user"></i>
+                                      My Profile</a>
+
+                        </li>
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-user-cog"></i>
+                            My Account</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-blog"></i>
+                        Blog
+                    </a>
+                    <ul class="collapse list-unstyled" id="blogSubmenu">
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-plus"></i>
+                            New</a>
+
+                        </li>
+                        <li>
+                                <a href="#">
+                                <i class="fas fa-clipboard-list"></i>
+                            List</a>
+
+                        </li>
+                    </ul>
+                    
+            <ul class="list-unstyled CTAs">
+                    <li>
+                        <a href="#" class="article">Logout</a>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+                
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Dashboard</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            
+                                <li class="nav-item">
+                                        <a  class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Calender">
+                                              <i class="fas fa-calendar-alt fa-3x"></i>
+                                        </a>
+                                    </li>
+                                    
+                                <li class="nav-item">
+                                        <a  class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Bell">
+                                              <i class="fas fa-bell fa-3x"></i>
+                                        </a>
+                                 </li>
+                                 
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Ravi Saxena">
+                                                <i class="fas fa-user-cog fa-3x"></i>
+                                        </a>
+                                    </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="container-fluid fa-sm">
+            <div class="card-deck">
+                    <div class="card fa-sm">
+                      <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">This is card</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card   fa-sm">
+                      <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">This is card 2</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card  fa-sm">
+                      <img class="card-img-top" src="images/logo.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">This is card 3</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+     <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+            });
+         </script>
+</body>
+
+</html>
